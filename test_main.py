@@ -3,7 +3,7 @@ Test goes here
 
 """
 
-from mylib.calculator import add
+from src.calculator import add
 
 
 def test_add():

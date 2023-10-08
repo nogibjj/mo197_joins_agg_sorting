@@ -2,7 +2,7 @@
 Main cli or app entry point
 """
 
-from mylib.calculator import add
+from src.calculator import add
 import click
 
 
