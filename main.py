@@ -2,7 +2,7 @@
 Main cli or app entry point
 """
 
-from src.calculator import add
+from src.test_cicd import add
 import click
 
 

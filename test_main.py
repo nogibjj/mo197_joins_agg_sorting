@@ -3,7 +3,7 @@ Test goes here
 
 """
 
-from src.calculator import add
+from src.test_cicd import add
 
 
 def test_add():
