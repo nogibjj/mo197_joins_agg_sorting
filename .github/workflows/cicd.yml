@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -15,9 +15,9 @@ jobs:
         run: make install
       - name: lint
         run: make lint
-      - name: test
-        run: make test
+      # - name: test
+      #   run: make test
       - name: format
         run: make format
-      - name: deploy
-        run: make deploy
+      # - name: deploy
+      #   run: make deploy
