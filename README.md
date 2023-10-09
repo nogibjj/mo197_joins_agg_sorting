@@ -3,7 +3,7 @@
 
 In this repo, we demostrate the power of a managed cloud database on Azure Cloud with the `faker` python library 
 
-To flow along Clone this repository or download the script.
+To follow along Clone this repository or download the script.
 
 Open the script (`utils/data_dump.py`), one request the connection params can be shared safely.
 
